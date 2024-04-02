@@ -1,0 +1,24 @@
+:root {
+  --midnight-blue: #0558a4;
+  --cerulean-blue: #376fff;
+  --teal-green: #2b9172;
+}
+
+@font-face {
+  font-family: MaisonNeueExtended;
+  src: url('../fonts/MaisonNeueExtendedMedium.woff2');
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: Montserrat;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  background-size: auto;
+}
