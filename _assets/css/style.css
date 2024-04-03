@@ -22,3 +22,24 @@ body {
   background-position-y: top;
   background-size: auto;
 }
+
+.bg-primary-gradient-center {
+  font-family: Montserrat;
+  background-image: url("../images/Group 207.png"),url("../images/Group 208.png");
+  background-repeat: no-repeat;
+  background-position: center top, center bottom ;
+  background-position-x: 27vw, 47vw;
+  background-position-y: 13vh, 58vh;
+}
+
+@media (max-width: 768px) {
+  .bg-primary-gradient-center {
+    background-position-x: 50%, 90%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .bg-primary-gradient-center {
+    background-position-x: 55%, 95%;
+  }
+}
