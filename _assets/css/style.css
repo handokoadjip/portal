@@ -1,9 +1,11 @@
+/* Colors */
 :root {
   --midnight-blue: #0558a4;
   --cerulean-blue: #376fff;
   --teal-green: #2b9172;
 }
 
+/* Fonts */
 @font-face {
   font-family: MaisonNeueExtended;
   src: url('../fonts/MaisonNeueExtendedMedium.woff2');
@@ -14,6 +16,7 @@
   src: url("../fonts/Montserrat-VariableFont_wght.ttf");
 }
 
+/* Body Styles */
 body {
   font-family: Montserrat;
   background-image: url("../images/background.png");
@@ -23,23 +26,33 @@ body {
   background-size: auto;
 }
 
+/* List Styles */
+li::marker {
+  font-size: 8px;
+}
+
+/* Owl Carousel Styles */
+.owl-nav {
+  display: none;
+}
+.owl-dots {
+  margin-top: 2rem;
+}
+
+/* Login Portal Styles */
 .bg-primary-gradient-center {
   font-family: Montserrat;
-  background-image: url("../images/bg1.png"),url("../images/bg2.png");
+  background-image: url("../images/bg1.png"), url("../images/bg2.png");
   background-repeat: no-repeat;
-  background-position: center top, center bottom ;
-  background-position-x: 27vw, 47vw;
+  background-position: center top, center bottom;
+  background-position-x: 27vw, 50vw;
   background-position-y: 13vh, 58vh;
+  background-size: 20vw 40vh;
+  background-attachment: fixed;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .bg-primary-gradient-center {
-    background-position-x: 50%, 90%;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
-  .bg-primary-gradient-center {
-    background-position-x: 55%, 95%;
+    background-image: none;
   }
 }
