@@ -25,7 +25,7 @@ body {
 
 .bg-primary-gradient-center {
   font-family: Montserrat;
-  background-image: url("../images/Group 207.png"),url("../images/Group 208.png");
+  background-image: url("../images/bg1.png"),url("../images/bg2.png");
   background-repeat: no-repeat;
   background-position: center top, center bottom ;
   background-position-x: 27vw, 47vw;
